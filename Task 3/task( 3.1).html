@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8" >
+  <title> task 3.1 </title> 
+    
+</head>
+<body>
+<h1>Basic HTML From Element </h1> 
+<form>
+    <!--<hr> -->
+    <fieldset>
+        <legend>Personal Information</legend>
+      <label for="user">Name (Text) </label>
+       <input type="text" id="user"  required />
+      </fieldset>
+     
+     
+      <hr>
+
+
+       <fieldset>
+        <legend>Contact & Security</legend>
+       <label for="email">Email :</label>
+       <input type="email" id="email" required/>
+          <br>
+          <br>
+       <label for="password">Password :</label>
+       <input type="password" id="password" required/>
+           </fieldset>
+
+
+          <hr>
+        
+           <fieldset>
+            <legend>Preferences</legend>
+            <label for="color">Favorite Color</label>
+            <input type="color" id="color"/>
+           </fieldset>
+
+
+           <hr>
+           <fieldset>
+            <legend>Range & Options</legend>
+            <label for ="rnge">Volume (Range 0-100)</label>
+            <input type="range" id="range"/>
+            
+            
+            <br>
+            <br>
+
+
+            <label> your favorite pet :</label>
+            <br>
+            <br>
+            <input type="radio" name="os" value="dog" id="dog-os"/>
+            <ladel for="dog-os">Dog</ladel>
+            
+            <br>
+
+              <input type="radio" name="os" value="cat" id="cat-os"/>
+            <ladel for="cat-os">Cat</ladel>
+             
+            <br>
+
+              <input type="radio" name="os" value="bird" id="bird-os"/>
+            <ladel for="bird-os">Bird</ladel>
+
+            <br>
+            <br>
+
+
+            <label> Interest(Check all that apply):</label>
+            <br>
+            <br>
+            <input type="checkbox" name="as" value="coding" id="coding-as"/>
+            <label for="coding-as">Coding</label>
+
+              <br>
+            <input type="checkbox" name="as" value="music" id="music-as"/>
+            <label for="music-as">Music</label>
+
+              <br>
+            <input type="checkbox" name="as" value="travel" id="travel-as"checked/>
+            <label for="tavel-as">Trave</label>
+
+           </fieldset>
+
+           <hr>
+
+           <fieldset>
+            <legend>Selection</legend>
+            <label for="choose-op">Choose a Country</label>
+            <select name="op" id="choose-op">
+
+            <optgroup label="Country">
+            <option value="Eygpt" checked>Eygpt</option>
+            <option value="france" >France</option>
+            <option value="america" >America</option>
+            <option value="spain" >Spain</option>
+             </optgroup>
+             </select>
+             </fieldset>
+            
+            
+            <hr>
+            
+
+            <fieldset>
+                <legend>Comments</legend>
+                <label >Your comments (Textarea):</label>
+                <br>
+                <comment id="comment">
+                <textarea cols="40" rows="10"></textarea>
+                </comment>
+            </fieldset>
+
+            <hr>
+
+            <fieldset>
+                <legend>File Upload</legend>
+                <label for="upload-io">Upload a File:</label>
+                <input type="file" name="io" id="upload-io"/>
+            </fieldset>
+
+            <hr>
+
+            <fieldset>
+                <legend>Specialize Text Inputs</legend>
+                <label for="text-ui">Search this site:</label>
+                <input type="text" name="ui" id="text-ui"/>
+
+                <br>
+                <br>
+                
+                <label for="url-yu">Your Website URL:</label>
+                <input type="url" name="yu" id="url-yu" placeholder="https://example.com"/>
+            </fieldset>
+
+            <hr>
+
+            <fieldset>
+                <legend>Date & Time</legend>
+                <label for="date-op">Date:</label>
+                <input type="date" name="op" id="date-op" placeholder="mm / pp / yyyy">
+
+                <br>
+                <br>
+
+                <label for="month-op">Month</label>
+                <input type="month" name="op" id="month-op" placeholder="---------- ---- ">
+
+                <br> 
+                <br>
+
+                <label for="time-op">Time:</label>
+                <input type="time" name="op" id="time-op" placeholder="-- : -- --" >
+            </fieldset>
+
+
+            <hr>
+
+            <fieldset>
+                <legend>Datalist(Suggestions) </legend>
+                <label for="datalist-lp">Choose a Browser (with suggestions):</label>
+                <input type="datalist" name="lp" id="datalist-lp">
+            </fieldset>
+
+
+            <hr>
+
+            <input type="submit" value="Submit Form"/>
+            <input type="submit" value="Clear Form"/>
+
+             
+
+            
+
+          
+</form>
+
+<body>
+ 
+  
+</html>
