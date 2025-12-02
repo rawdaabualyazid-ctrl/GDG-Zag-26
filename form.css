@@ -1,0 +1,93 @@
+#io{
+    text-align: center;
+ 
+}
+
+#form{
+    text-align: center;
+    padding: 30px;
+    border: 20px;
+    background-color: rgb(212, 238, 238);
+    box-shadow: 5px 10px rgb(108, 112, 108);
+}
+
+#sec{
+    text-align: center;
+    padding: 30px;
+    border: 20px;
+    background-color: rgb(212, 238, 238);
+    box-shadow: 5px 10px rgb(108, 112, 108);
+
+}
+
+#but{
+    width: 680px;
+    background-color: rgb(147, 158, 170);
+    color: rgb(250, 252, 253);
+    font-size: large;
+}
+
+.sec{
+     text-align: right;
+    padding: 30px;
+    border: 20px;
+    background-color: rgb(212, 238, 238);
+    box-shadow: 5px 10px rgb(108, 112, 108);
+}
+
+.se{
+    text-align: right;
+    padding: 30px;
+    border: 20px;
+    background-color: white;
+    box-shadow: 5px 10px rgb(108, 112, 108);
+    font-size: larger;
+}
+
+#sch{
+    font-size:xx-large;
+    text-align: center;
+    text-shadow: 1px 1px 2px red;
+    
+}
+
+.sch h3{
+    font-weight: bold;
+    text-align: left;
+    width: fit-content;
+    font-size: xx-large;
+    color: white;
+    background-color:#e91e63;
+}
+
+.sch{
+   text-align: right;
+   border-bottom-left-radius:dotted ;
+    padding: 30px;
+    border: 20px;
+    background-color: rgb(212, 238, 238);
+    box-shadow: 5px 10px rgb(108, 112, 108);
+}
+#one{
+    font-size: x-large;
+     background-color: black;
+    color: rgb(248, 252, 251);
+   
+    width: fit-content;
+}
+
+.pio{
+    text-align: center;
+    font-size: larger;
+
+}
+
+#pio{
+    text-align: center;
+    font-size: xx-large;
+    padding: 30px;
+    border: 20px;
+    background-color: rgb(4, 18, 18);
+    box-shadow: 5px 10px rgb(108, 112, 108);
+    color: white;
+}

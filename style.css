@@ -1,0 +1,88 @@
+header{
+   border-bottom: #ddd;
+   background-color: #333;
+}
+
+
+#welcome{
+     background-color: rgb(93, 131, 212);
+     margin-top: 0px;
+     padding: 30px;}
+
+
+     .my-element{
+        text-align: center; 
+     }
+
+     .parent{
+        width: 680px;
+        height: 140px;
+        padding: 20px;
+        border: 2px solid #ddd;
+        overflow: auto;
+        background-color:whitesmoke ;
+        box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+
+     }
+
+     label{
+        font: 1em sans-serif;
+     }
+
+     label{
+        font-style:Sans-serif;
+     }
+
+
+     .skill{
+      color: rgb(5, 5, 79);
+     }
+
+    
+  
+
+     .project-container{
+      display: flex;
+     }
+      
+
+
+
+     .project-card img{
+      width: 5px;
+      height: 10px;
+      margin-bottom:10px ;
+     }
+
+
+     #html{
+        width: 200px;
+        height: 140px;
+        padding: 20px;
+        border: 2px solid #ddd;
+        overflow: auto;
+        background-color:whitesmoke ;
+        box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+     }
+     
+     .but{
+      width: 70px;
+       background-color: rgb(10, 29, 67);
+       margin-top: 0px;
+       padding: 10px; 
+       color: azure;
+       
+   
+     }
+     .foot{
+        background-color: rgb(93, 131, 212);
+     margin-top: 0px;
+     padding: 10px; 
+   
+   }
+
+    
+     #foot{
+        text-align: center; 
+     }
+
